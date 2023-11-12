@@ -1,2 +1,3 @@
-/build/
-!/build/bin
+/build/*
+!/build/bin/conf/yplayer.conf
+!/build/bin/conf/yplayer.conf.default
