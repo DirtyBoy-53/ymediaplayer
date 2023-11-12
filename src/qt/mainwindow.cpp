@@ -17,7 +17,8 @@ void MainWindow::initUI()
 {
     setWindowIcon(QIcon(":/image/icon.png"));
 
-    int w = g_confile->Get<int>("main_window_width", "ui", MAIN_WINDOW_WIDTH);
-    int h = g_confile->Get<int>("main_window_height", "ui", MAIN_WINDOW_HEIGHT);
+    int w = g_config->Get<int>("main_window_width", "ui", MAIN_WINDOW_WIDTH);
+    int h = g_config->Get<int>("main_window_height", "ui", MAIN_WINDOW_HEIGHT);
+
     setBaseSize(w, h);
 }

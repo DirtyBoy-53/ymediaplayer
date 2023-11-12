@@ -24,6 +24,12 @@ target_sources(yqt
     ${CMAKE_CURRENT_LIST_DIR}/mainwindow.h
   )
 
+target_link_libraries(yqt
+  PRIVATE
+    yhv
+    yutil
+    yglobal
+)
 target_include_directories(yqt
   PUBLIC
     ${CMAKE_CURRENT_LIST_DIR}

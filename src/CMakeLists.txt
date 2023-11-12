@@ -1,5 +1,3 @@
-
-
 #Qt
 # 设置moc rcc uic
 set(CMAKE_AUTOMOC ON)
@@ -31,53 +29,3 @@ target_link_libraries(ymediaplayer
     ythird
     yutil
   )
-
-
-
-# #qt
-# set(QT_LIB yqt)
-# include_directories(${PROJECT_SOURCE_DIR}/src/qt)
-# add_subdirectory(src/qt)
-
-
-# #hv
-# set(HV_LIB yhv)
-# include_directories(${PROJECT_SOURCE_DIR}/src/hv)
-# include_directories(${PROJECT_SOURCE_DIR}/src/hv/base)
-# include_directories(${PROJECT_SOURCE_DIR}/src/hv/utils)
-# add_subdirectory(src/hv)
-
-
-# #global
-# set(GLOBAL_LIB yglobal)
-# include_directories(${PROJECT_SOURCE_DIR}/src/global)
-# add_subdirectory(src/global)
-
-# #util
-# set(UTIL_LIB yutil)
-# include_directories(${PROJECT_SOURCE_DIR}/src/util)
-# add_subdirectory(src/util)
-
-# #gl
-# set(GL_LIB ygl)
-# include_directories(${PROJECT_SOURCE_DIR}/src)
-# include_directories(${PROJECT_SOURCE_DIR}/src/GL)
-# add_subdirectory(src/GL)
-
-# #third
-# set(THIRD_LIB ythird)
-# include_directories(${PROJECT_SOURCE_DIR}/src/third/spdlog)
-# add_subdirectory(src/third/spdlog)
-
-# set(SRC_APP ./main.cc)
-
-# add_executable(ymediaplayer ${SRC_APP} ${SRC_BASE} ${SRC_UTILS})
-
-# #lib
-
-# link_libraries(${HV_LIB})
-# link_libraries(${QT_LIB})
-# link_libraries(${GLOBAL_LIB})
-# link_libraries(${UTIL_LIB})
-# link_libraries(${GL_LIB})
-# link_libraries(${THIRD_LIB})
