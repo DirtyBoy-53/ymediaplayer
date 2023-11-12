@@ -1,23 +1,10 @@
 # build
-/build/.cmake
-/build/CMakeFiles
-/build/lib
-/build/src
-/build/x64
-/build/*.*
+/build/*
+!/build/bin
+/build/bin/Debug/*
+/build/bin/Release/*
 
-# build/Debug !conf
-/build/bin/Debug/iconengines
-/build/bin/Debug/imageformats
-/build/bin/Debug/platforms
-/build/bin/Debug/styles
-/build/bin/Debug/translations
-/build/bin/Debug/*.*
-
-# build/Release !conf
-/build/bin/Release/iconengines
-/build/bin/Release/imageformats
-/build/bin/Release/platforms
-/build/bin/Release/styles
-/build/bin/Release/translations
-/build/bin/Release/*.*
+# 取消配置文件和脚本的过滤
+!/build/bin/Debug/conf/*
+!/build/bin/Release/conf/*
+!/build/*.bat

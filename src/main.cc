@@ -5,6 +5,7 @@
 #include "confile.h"
 #include "ylog.h"
 #include <format>
+#include "mainwindow.h"
 IniParser* g_config = nullptr;
 char g_exec_path[256]{0};
 char g_exec_dir[256]{0};
@@ -45,6 +46,8 @@ int main(int argc,char** argv)
 {
     QApplication a(argc,argv);
     load_config();
+    MainWindow w;
+    w.show();
 
     return a.exec();
 }

@@ -15,11 +15,13 @@ add_library(yqt "")
 target_sources(yqt
   PRIVATE
     ${CMAKE_CURRENT_LIST_DIR}/videowidget.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/mainwindow.cpp
   PUBLIC
     ${CMAKE_CURRENT_LIST_DIR}/videowidget.h
     ${CMAKE_CURRENT_LIST_DIR}/qtfunctions.h
     ${CMAKE_CURRENT_LIST_DIR}/qtheaders.h
     ${CMAKE_CURRENT_LIST_DIR}/qtstyles.h
+    ${CMAKE_CURRENT_LIST_DIR}/mainwindow.h
   )
 
 target_include_directories(yqt
