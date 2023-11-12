@@ -1,3 +1,23 @@
-/build/*
-!/build/bin/conf/yplayer.conf
-!/build/bin/conf/yplayer.conf.default
+# build
+/build/.cmake
+/build/CMakeFiles
+/build/lib
+/build/src
+/build/x64
+/build/*.*
+
+# build/Debug !conf
+/build/bin/Debug/iconengines
+/build/bin/Debug/imageformats
+/build/bin/Debug/platforms
+/build/bin/Debug/styles
+/build/bin/Debug/translations
+/build/bin/Debug/*.*
+
+# build/Release !conf
+/build/bin/Release/iconengines
+/build/bin/Release/imageformats
+/build/bin/Release/platforms
+/build/bin/Release/styles
+/build/bin/Release/translations
+/build/bin/Release/*.*
