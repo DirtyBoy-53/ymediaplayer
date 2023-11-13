@@ -7,7 +7,7 @@
 # message(STATUS "${BoldRed}This is a bold red${ColourReset}")
 # message(STATUS "${Green}This is a green${ColourReset}")
 # message(STATUS "${BoldMagenta}This is bold${ColourReset}")
-# macro(define_colors)
+macro(define_colors)
   if(WIN32)
     # has no effect on WIN32
     set(ColourReset "")
