@@ -1,4 +1,13 @@
-macro(define_colors)
+# 使用方法
+# list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
+# include(color)
+# define_colors()
+# message(STATUS "This is a normal message")
+# message(STATUS "${Red}This is a red${ColourReset}")
+# message(STATUS "${BoldRed}This is a bold red${ColourReset}")
+# message(STATUS "${Green}This is a green${ColourReset}")
+# message(STATUS "${BoldMagenta}This is bold${ColourReset}")
+# macro(define_colors)
   if(WIN32)
     # has no effect on WIN32
     set(ColourReset "")
