@@ -1,10 +1,11 @@
+
 #Qt
 # 设置moc rcc uic
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 # set(CMAKE_PREFIX_PATH "D:/Compiler/Qt/5.15.2/msvc2015_64") 
-set(Qt5_DIR "D:/Compiler/Qt/5.15.2/msvc2015_64/lib/cmake/Qt5")
+set(Qt5_DIR "F:/Computer/Qt/5.15.2/msvc2015_64/lib/cmake/Qt5")
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 find_package(Qt5 COMPONENTS Core Gui Widgets REQUIRED)
