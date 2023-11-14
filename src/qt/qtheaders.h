@@ -2,10 +2,10 @@
 
 #include "ygl.h"
 #include "hv.h"
-#include <QtCore>
-#include <QtGui>
-#include <QtWidgets>
-
+#include <QtCore/QtCore>
+#include <QtGui/QtGui>
+#include <QtWidgets/QtWidgets>
+#include <ylog.h>
 #if _MSC_VER >= 1600
 #pragma execution_character_set("utf-8")
 #endif

@@ -5,7 +5,7 @@ target_sources(yutil
 #   PRIVATE
   PUBLIC ${HEADER}
   )
-
+# target_link_libraries(yutil PRIVATE ythird)
 target_include_directories(yutil
   PUBLIC
     ${CMAKE_CURRENT_LIST_DIR}

@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/skin"/>
+    <qresource prefix="/">
+        <file>D:/Software/VSCode/C++/ymediaplayer/rc/skin/dark.qss</file>
+        <file>D:/Software/VSCode/C++/ymediaplayer/rc/skin/dark/add_bottom.png</file>
+        <file>D:/Software/VSCode/C++/ymediaplayer/rc/skin/dark/add_left.png</file>
+        <file>D:/Software/VSCode/C++/ymediaplayer/rc/skin/dark/add_right.png</file>
+        <file>D:/Software/VSCode/C++/ymediaplayer/rc/skin/dark/add_top.png</file>
+        <file>D:/Software/VSCode/C++/ymediaplayer/rc/skin/dark/branch_close.png</file>
+        <file>D:/Software/VSCode/C++/ymediaplayer/rc/skin/dark/branch_open.png</file>
+        <file>D:/Software/VSCode/C++/ymediaplayer/rc/skin/dark/calendar_nextmonth.png</file>
+        <file>D:/Software/VSCode/C++/ymediaplayer/rc/skin/dark/calendar_prevmonth.png</file>
+        <file>D:/Software/VSCode/C++/ymediaplayer/rc/skin/dark/checkbox_checked.png</file>
+        <file>D:/Software/VSCode/C++/ymediaplayer/rc/skin/dark/checkbox_checked_disable.png</file>
+        <file>D:/Software/VSCode/C++/ymediaplayer/rc/skin/dark/checkbox_parcial.png</file>
+        <file>D:/Software/VSCode/C++/ymediaplayer/rc/skin/dark/checkbox_parcial_disable.png</file>
+        <file>D:/Software/VSCode/C++/ymediaplayer/rc/skin/dark/checkbox_unchecked.png</file>
+        <file>D:/Software/VSCode/C++/ymediaplayer/rc/skin/dark/checkbox_unchecked_disable.png</file>
+        <file>D:/Software/VSCode/C++/ymediaplayer/rc/skin/dark/radiobutton_checked.png</file>
+        <file>D:/Software/VSCode/C++/ymediaplayer/rc/skin/dark/radiobutton_checked_disable.png</file>
+        <file>D:/Software/VSCode/C++/ymediaplayer/rc/skin/dark/radiobutton_unchecked.png</file>
+        <file>D:/Software/VSCode/C++/ymediaplayer/rc/skin/dark/radiobutton_unchecked_disable.png</file>
+    </qresource>
+</RCC>

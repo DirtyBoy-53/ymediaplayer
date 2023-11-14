@@ -4,26 +4,33 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 # set(CMAKE_PREFIX_PATH "D:/Compiler/Qt/5.15.2/msvc2015_64") 
-set(Qt5_DIR "D:/Compiler/Qt/5.15.2/msvc2015_64/lib/cmake/Qt5")
+# set(Qt5_DIR "D:/Compiler/Qt/5.15.2/msvc2015_64/lib/cmake/Qt5")
+set(CMAKE_PREFIX_PATH "F:/Computer/Qt/5.15.2/msvc2015_64")
+set(Qt5_DIR "F:/Computer/Qt/5.15.2/msvc2015_64/lib/cmake/Qt5")
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
-
 find_package(Qt5 COMPONENTS Core Gui Widgets REQUIRED)
-link_libraries(Qt5::Core Qt5::Gui Qt5::Widgets)
+include_directories(${Qt5Widgets_INCLUDE_DIRS}
+                    )
 
-
-add_executable(ymediaplayer main.cc)
-
-add_subdirectory(GL)
+# add_subdirectory(GL)
 add_subdirectory(global)
 add_subdirectory(hv)
 add_subdirectory(qt)
 # add_subdirectory(third)
 add_subdirectory(util)
 
+# set qrc dir
+# set(skin_QRC ${CMAKE_SOURCE_DIR}/skin.qrc)
+# qt_add_resources(skin_RC ${skin_QRC})
+# message(SKIN_RC=${skin_RC})
+qt5_add_resources(qrc_FILES skin.qrc)
+add_executable(ymediaplayer main.cc ${qrc_FILES})
+
+target_link_libraries(ymediaplayer PRIVATE Qt5::Core Qt5::Gui Qt5::Widgets)
 
 target_link_libraries(ymediaplayer
   PRIVATE
-    ygl
+    # ygl
     yglobal
     yhv
     yqt

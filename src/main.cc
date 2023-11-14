@@ -1,11 +1,11 @@
 #include "qtheaders.h"
-#include <QApplication>
 #include "qtstyles.h"
 #include "appdef.h"
 #include "confile.h"
-#include "ylog.h"
 #include <format>
 #include "mainwindow.h"
+#include <iostream>
+
 IniParser* g_config = nullptr;
 char g_exec_path[256]{0};
 char g_exec_dir[256]{0};
@@ -46,6 +46,9 @@ int main(int argc,char** argv)
 {
     QApplication a(argc,argv);
     load_config();
+    a.setApplicationName(APP_NAME);
+    std::string str = g_config->GetValue("skin","ui");
+    loadSkin(str.empty() ? DEFAULT_SKIN : str.c_str());
     MainWindow w;
     w.show();
 

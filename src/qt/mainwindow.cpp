@@ -12,7 +12,7 @@ MainWindow::MainWindow(QWidget *parent)
 MainWindow::~MainWindow()
 {
 }
-
+#include <QtWidgets/QPushButton>
 void MainWindow::initUI()
 {
     setWindowIcon(QIcon(":/image/icon.png"));
@@ -21,4 +21,6 @@ void MainWindow::initUI()
     int h = g_config->Get<int>("main_window_height", "ui", MAIN_WINDOW_HEIGHT);
 
     setBaseSize(w, h);
+    QPushButton* btn = new QPushButton("Test",this);
+    
 }

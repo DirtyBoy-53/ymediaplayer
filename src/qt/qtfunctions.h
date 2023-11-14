@@ -20,6 +20,8 @@ inline void loadSkin(const char *skin) {
     if (file.open(QFile::ReadOnly)) {
         qApp->setStyleSheet(file.readAll());
         file.close();
+    }else{
+        YLog::Logger->warn("read {}.qss error.",skin);
     }
 }
 
