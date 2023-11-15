@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="ADD">rc/add.png</file>
+        <file>rc/pause.png</file>
+        <file>rc/start.png</file>
+        <file>rc/stop.png</file>
+        <file>rc/style1.png</file>
+        <file>rc/style2.png</file>
+        <file>rc/style4.png</file>
+        <file>rc/style9.png</file>
+        <file>rc/style16.png</file>
+        <file>rc/style25.png</file>
+        <file>rc/style36.png</file>
+        <file>rc/style49.png</file>
+        <file>rc/style64.png</file>
+        <file>rc/media_bk.png</file>
+        <file>rc/next.png</file>
+        <file>rc/prev.png</file>
+        <file>rc/capture.png</file>
+        <file>rc/clear.png</file>
+        <file>rc/disk.png</file>
+        <file>rc/file.png</file>
+        <file>rc/fullscreen.png</file>
+        <file alias="ICON">rc/icon.png</file>
+        <file>rc/media.png</file>
+        <file>rc/mute.png</file>
+        <file>rc/network.png</file>
+        <file>rc/sub.png</file>
+        <file>rc/timeshow.png</file>
+        <file>rc/voice.png</file>
+        <file>rc/close.png</file>
+    </qresource>
+</RCC>

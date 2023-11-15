@@ -17,7 +17,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/${CMAKE_INSTALL_BINDIR})
 # set cmake folder
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake;${CMAKE_MODULE_PATH}")
 include(utils)
-include(QtChooser)
+
 # set _CRT_SECURE_NO_WARNINGS
 add_compile_definitions(HV_SOURCE)
 if("${CMAKE_CXX_COMPILER_ID}" STREQUAL "MSNV")

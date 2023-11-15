@@ -16,7 +16,8 @@ inline void setPalette(QColor clr) {
 
 inline void loadSkin(const char *skin) {
     // :/skin/dark.qss
-    QFile file(QString(":/skin/") + QString(skin) + QString(".qss"));
+    // QFile file(QString(":/skin/") + QString(skin) + QString(".qss"));
+    QFile file(QString(":%1").arg(skin));
     if (file.open(QFile::ReadOnly)) {
         qApp->setStyleSheet(file.readAll());
         file.close();

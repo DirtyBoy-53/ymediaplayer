@@ -18,7 +18,7 @@
 #define MV_STYLE_COL        3
 //==============================================
 
-#define DEFAULT_SKIN            "dark"
+#define DEFAULT_SKIN            "darkstyle"
 #define DEFAULT_PALETTE_COLOR   0xFF132D48
 #define DEFAULT_LANGUAGE        ""
 #define DEFAULT_FONT_SIZE       12
