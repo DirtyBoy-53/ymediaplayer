@@ -23,7 +23,7 @@ add_subdirectory(util)
 # qt_add_resources(skin_RC ${skin_QRC})
 # message(SKIN_RC=${skin_RC})
 qt5_add_resources(qrc_skin_dark ${CMAKE_CURRENT_SOURCE_DIR}/../res/skin/dark/darkstyle.qrc)
-qt5_add_resources(qrc_skin_light ${CMAKE_CURRENT_SOURCE_DIR}/../resskin/light/lightstyle.qrc)
+qt5_add_resources(qrc_skin_light ${CMAKE_CURRENT_SOURCE_DIR}/../res/skin/light/lightstyle.qrc)
 qt5_add_resources(qrc_image ${CMAKE_CURRENT_SOURCE_DIR}/../res/image/image.qrc)
 
 add_executable(ymediaplayer main.cc ${qrc_skin_dark} ${qrc_skin_light} ${qrc_image})

@@ -8,8 +8,18 @@ class MainWindow : public QMainWindow{
 public:
     MainWindow(QWidget* parent = nullptr);
     ~MainWindow();
+    enum window_state_e {
+        NORMAL = 0,
+        MINIMIZED,
+        MAXIMIZED,
+        FULLSCREEN,
+    } window_state;
 
 protected:
     void initUI();
+
+
+public slots:
+    void mv_fullscreen();
 
 };

@@ -1,5 +1,5 @@
 #include "ylog.h"
-
+#include <iostream>
 std::shared_ptr<spdlog::logger> YLog::Logger = nullptr;
 
 /// <summary>
